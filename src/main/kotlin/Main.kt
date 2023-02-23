@@ -1,12 +1,12 @@
 fun main(){
-    cities()
+    cities("Kisumu","Nairobi", "Mombasa","Nakuru")
     places()
     sum()
     names("Winfrida","Ann","Mercy")
 
 }
-fun cities(){
-    var city = arrayOf("Nairobi","Kisumu","Nakuru","Mombasa")
+fun cities(name1: String, name2: String, name3: String,name4: String){
+    var city = arrayOf(name1,name2,name3,name4)
     println(city.contentToString())
 }
 fun places(){
